@@ -1,2 +1,2 @@
-# Javascript_Examples1
-First Section of Javascript Examples
+# Javascript_Examples
+HTML/CSS/Javascript Examples

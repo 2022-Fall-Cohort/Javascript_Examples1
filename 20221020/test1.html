@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<script>
+  console.log("Hello World");
+  /*
+  a multiline comment
+  */
+  var number = "42"; // This is a comment
+  number = 42;
+  number = 42.0;
+  number = new Date(); // ? ¯\_(ツ)_/¯
+
+  var menuItems = [ "steak", "escargot", "tacos de pescado" ];
+  for ( i = 0; i < menuItems.length; i++)
+  {
+    console.log(menuItems[i]);
+  }
+
+  var menuItems = [ "steak", "escargot", "tacos de pescado" ];
+  menuItems.forEach( function(element)
+  { 
+    console.log(element); 
+    console.log("Hi");
+  });
+
+  var menuItems = [ "steak", "escargot", "tacos de pescado" ];
+  menuItems.forEach( element => console.log(element) )
+
+  
+  // { 
+  //   console.log(element); 
+  //   console.log("Hi");
+  // });
+
+
+</script>
+</body>
+</html>
